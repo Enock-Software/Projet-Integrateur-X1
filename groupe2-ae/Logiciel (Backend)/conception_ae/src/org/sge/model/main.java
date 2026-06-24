@@ -1,3 +1,4 @@
+//Before to execute always check that the file postgres-42.7.2.jar is always in the referenced libraries
 package org.sge.model;
 
 import java.sql.Connection;

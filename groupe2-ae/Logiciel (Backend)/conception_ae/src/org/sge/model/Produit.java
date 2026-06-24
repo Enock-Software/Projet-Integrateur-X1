@@ -3,7 +3,7 @@
 package org.sge.model;
 
 public class Produit {
-    private String idProduit;
+    private int idProduit;
     private String designation;
     private String description;
     private String categorie;
@@ -13,7 +13,7 @@ public class Produit {
     private double poidsUnitaire;
 
     //Constructeur
-    public Produit(String idProduit, String designation, String description, String categorie, double hauteur, double largeur, double profondeur, double poidsUnitaire){
+    public Produit(int idProduit, String designation, String description, String categorie, double hauteur, double largeur, double profondeur, double poidsUnitaire){
         this.idProduit=idProduit;
         this.designation=designation;
         this.description=description;
@@ -24,7 +24,7 @@ public class Produit {
         this.poidsUnitaire=poidsUnitaire;
     }
     //Getter
-    public String getIdProduit(){ return this.idProduit; }
+    public int getIdProduit(){ return this.idProduit; }
     public String getDesignation(){ return this.designation; }
     public String getDescription(){ return this.description; }
     public String getCategorie(){ return this.categorie; }

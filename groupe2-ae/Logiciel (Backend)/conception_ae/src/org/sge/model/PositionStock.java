@@ -2,13 +2,13 @@ package org.sge.model;
 
 import java.time.LocalDateTime;
 
-public class Inventaire {
+public class PositionStock {
     private Cellule cellule;
     private Lot lot;
     private int quantiteStockee;
 
     // Constructeur
-    public Inventaire(Cellule cellule, Lot lot, int quantiteStockee) {
+    public PositionStock(Cellule cellule, Lot lot, int quantiteStockee) {
         this.cellule = cellule;
         this.lot = lot;
         this.quantiteStockee = quantiteStockee;

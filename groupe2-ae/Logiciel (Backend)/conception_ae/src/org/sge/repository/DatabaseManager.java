@@ -6,8 +6,8 @@ import java.sql.SQLException;
 
 public class DatabaseManager {
 
-    // 1. On définit l'URL JDBC et les identifiants
-    private static final String URL = "jdbc:postgresql://localhost:5432/postgres";
+    // On définit l'URL JDBC et les identifiants
+    private static final String URL = "jdbc:postgresql://localhost:5432/entrepot_groupe2";
     private static final String USER = "postgres"; // Utilisateur par défaut de Postgres
     private static final String PASSWORD = "admin"; // Remplacer par ton vrai mot de passe
 

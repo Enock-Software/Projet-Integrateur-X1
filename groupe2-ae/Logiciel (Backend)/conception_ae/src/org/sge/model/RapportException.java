@@ -3,14 +3,14 @@ package org.sge.model;
 import java.time.LocalDateTime;
 
 public class RapportException {
-    private String idRapport;
+    private int idRapport;
     private String typeAnomalie; // Ex: Produit cassé, Erreur de quantité, Retard livraison
     private String description;
     private LocalDateTime dateSignalement;
     private Individu auteur; // L'employé qui a signalé l'anomalie
 
     // Constructeur
-    public RapportException(String idRapport, String typeAnomalie, String description, LocalDateTime dateSignalement, Individu auteur) {
+    public RapportException(int idRapport, String typeAnomalie, String description, LocalDateTime dateSignalement, Individu auteur) {
         this.idRapport = idRapport;
         this.typeAnomalie = typeAnomalie;
         this.description = description;
@@ -19,7 +19,7 @@ public class RapportException {
     }
 
     // Getters
-    public String getIdRapport() { return this.idRapport; }
+    public int getIdRapport() { return this.idRapport; }
     public String getTypeAnomalie() { return this.typeAnomalie; }
     public String getDescription() { return this.description; }
     public LocalDateTime getDateSignalement() { return this.dateSignalement; }

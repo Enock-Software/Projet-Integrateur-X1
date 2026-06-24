@@ -6,7 +6,7 @@ public class Individu extends Intervenant {
     private String role; // Ex: Magasinier, Chef d'entrepôt, Client individuel
 
     // Constructeur complet 
-    public Individu(String idIntervenant, String nom, int telephone, String email, String adresse, String prenom, String role) {
+    public Individu(int idIntervenant, String nom, String telephone, String email, String adresse, String prenom, String role) {
         super(idIntervenant, nom, telephone, email, adresse); // Appel obligatoire au constructeur de la mère
         this.prenom = prenom;
         this.role = role;

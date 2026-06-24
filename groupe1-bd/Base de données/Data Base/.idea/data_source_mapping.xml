@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourcePerFileMappings">
+    <file url="file://$PROJECT_DIR$/SGE_cre1.sql" value="71f19a16-7555-431f-8432-237553ef3f51" />
+    <file url="file://$PROJECT_DIR$/SGE_imm.sql" value="71f19a16-7555-431f-8432-237553ef3f51" />
+    <file url="file://$PROJECT_DIR$/SGE_jdd_02.sql" value="71f19a16-7555-431f-8432-237553ef3f51" />
+    <file url="file://$PROJECT_DIR$/SGE_tes-pos.sql" value="71f19a16-7555-431f-8432-237553ef3f51" />
+    <file url="file://$PROJECT_DIR$/SGE_test-neg.sql" value="71f19a16-7555-431f-8432-237553ef3f51" />
+  </component>
+</project>

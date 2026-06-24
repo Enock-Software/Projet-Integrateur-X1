@@ -5,7 +5,7 @@ public class Organisation extends Intervenant{
     private String typeOrganisation; // Nature de l'netité (Fournisseur, transporteur, Client Entreprise)
 
     //constructeur
-    public Organisation(String idIntervenant, String nom, int telephone, String email, String adresse, String registreCommerce, String typeOrganisation){
+    public Organisation(int idIntervenant, String nom, String telephone, String email, String adresse, String registreCommerce, String typeOrganisation){
         super(idIntervenant, nom, telephone, email, adresse);
         this.registreCommerce=registreCommerce;
         this.typeOrganisation=typeOrganisation;
