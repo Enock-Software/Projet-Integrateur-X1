@@ -1,3 +1,21 @@
+DROP INDEX IF EXISTS idx_bon_reception;
+DROP INDEX IF EXISTS idx_position_lot;
+DROP INDEX IF EXISTS idx_position_cellule;
+DROP INDEX IF EXISTS idx_lot_produit;
+
+DROP TABLE IF EXISTS RapportException CASCADE;
+DROP TABLE IF EXISTS MaterielEmballage CASCADE;
+DROP TABLE IF EXISTS BonExpedition CASCADE;
+DROP TABLE IF EXISTS ColisEntrant CASCADE;
+DROP TABLE IF EXISTS BonReception CASCADE;
+DROP TABLE IF EXISTS PositionStock CASCADE;
+DROP TABLE IF EXISTS Cellule CASCADE;
+DROP TABLE IF EXISTS Lot CASCADE;
+DROP TABLE IF EXISTS Produit CASCADE;
+DROP TABLE IF EXISTS Organisation CASCADE;
+DROP TABLE IF EXISTS Individu CASCADE;
+DROP TABLE IF EXISTS Intervenant CASCADE;
+
 -- =============================================
 -- SGE_cre.sql - Création du schéma de base de données
 -- Système de Gestion d'Entrepôt -  PDII-P1

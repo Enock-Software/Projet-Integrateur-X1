@@ -1,3 +1,7 @@
+DROP VIEW IF EXISTS Vue_Mouvements_Recents CASCADE;
+DROP VIEW IF EXISTS Vue_Materiel_Emballage CASCADE;
+DROP VIEW IF EXISTS Vue_Stock_Actuel CASCADE;
+
 -- =============================================
 -- SGE_imm.sql - Interface de Base
 -- Vues et fonctions principales
